@@ -61,10 +61,10 @@ Here's a reference for the minimum required connections:
 When using different ST-Link versions:
 
 - **Genuine ST-Link V2 or V3**:  
-  Connect `VTarget (VTr)` to the target board's `VDD`.
+  Connect `VTarget (VTr)` to `VDD` [target's mcu `VDD`].
 
-- **Clone ST-Link usally ST-Link V2 (e.g., Chinese versions)**:  
-  Connect the adapter's **3.3V** pin to the target's `VDD`.
+- **Clone ST-Link (usually ST-Link V2, e.g., Chinese versions)**:  
+  Connect `3V3` to `VDD` [target's mcu `VDD`].
 
 ---
 
