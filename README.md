@@ -22,7 +22,7 @@ Instead of dealing with messy jumper wires or complex breakout boards, this prov
 - **Developer-Friendly** — Saves time and reduces frustration  
 - **Labeled Pins** — Clear labeling right on the PCB  
 - **Reduces Errors** — Focus on your work, not wiring  
-- **Compact** — Just 30x31 mm in size
+- **Compact** — Just 30x31 mm in size (*2-layer PCB*)
 
 ---
 
@@ -89,12 +89,22 @@ When using different ST-Link versions:
 
 ---
 
-## 📁 Gerber Files
 
-The `gerber/` directory contains production-ready files for PCB manufacturing.
 
-Inside this folder, you will also find a `panelization/` subfolder — this contains the panelized version used for manufacturing the PCB via **JLCPCB**.  
-You can directly upload it to [JLCPCB](https://jlcpcb.com) for fast and easy production.
+---
+
+## 📁 Design Files & Gerber Files
+
+- The `JTAG_to_SWD/` directory contains the original **KiCad project files**.  
+  If you’d like to modify or customize the board, you can easily do so using KiCad.
+
+- The `gerber/` directory includes **production-ready files** for PCB manufacturing.
+
+  Inside it, you’ll find a `panel/V1.1/` subfolder — this contains the **panelized version** of the PCB (`JTAG_to_SWD_panel_V1.1.zip`).  
+  This file is ready to upload directly to [JLCPCB](https://jlcpcb.com) for manufacturing.
+
+💡 This is a **2-layer PCB**, and each panel contains **6 individual boards**.  
+That means for just **$2**, you can get **30 PCBs** produced at JLCPCB!
 
 ---
 
