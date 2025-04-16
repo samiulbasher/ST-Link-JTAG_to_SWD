@@ -41,6 +41,8 @@ Instead of dealing with messy jumper wires or complex breakout boards, this prov
 ![ST-Link V2 JTAG to SWD Adapter](https://github.com/user-attachments/assets/4ddc6696-c4ac-4d62-91f4-aacd9e46ecbd)  
 ![ST-Link V3 JTAG to SWD Adapter](https://github.com/user-attachments/assets/28d0defd-ff10-4b3d-8655-53fbd2b5a660)  
 ![Panelized Board](https://github.com/user-attachments/assets/1c1da1a3-f347-49c1-b40f-b52d05483847)
+![JTAG to SWD Adapter](https://github.com/user-attachments/assets/614cca4d-5dbb-46a6-8a9f-24a79b867c5d)
+
 
 ---
 
@@ -54,14 +56,14 @@ Here's a reference for the minimum required connections:
 
 ---
 
-## 🔌 Jumper Connection Info
+## 🔌 Jumper Connection
 
 When using different ST-Link versions:
 
 - **Genuine ST-Link V2 or V3**:  
   Connect `VTarget (VTr)` to the target board's `VDD`.
 
-- **Clone ST-Link (e.g., Chinese versions)**:  
+- **Clone ST-Link usally ST-Link V2 (e.g., Chinese versions)**:  
   Connect the adapter's **3.3V** pin to the target's `VDD`.
 
 ---
